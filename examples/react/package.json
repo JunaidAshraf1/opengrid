@@ -1,0 +1,25 @@
+{
+  "name": "ja-grid-react-example",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^18.3.0",
+    "react-dom": "^18.3.0",
+    "ja-grid": "file:../../packages/core",
+    "ja-grid-react": "file:../../packages/react"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^6.0.2",
+    "sass": "^1.80.0",
+    "typescript": "^5.5.0",
+    "vite": "^8.0.16"
+  }
+}

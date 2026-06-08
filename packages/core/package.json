@@ -1,6 +1,6 @@
 {
   "name": "ja-grid",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Framework-agnostic enterprise data grid core.",
   "license": "MIT",
   "main": "src/index.ts",

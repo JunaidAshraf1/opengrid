@@ -1,0 +1,34 @@
+{
+  "name": "ja-grid-react",
+  "version": "0.0.1",
+  "description": "React UI adapter for ja-grid.",
+  "license": "MIT",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "style": "styles.css",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./styles.css": "./styles.css"
+  },
+  "files": [
+    "src",
+    "styles.css",
+    "README.md"
+  ],
+  "dependencies": {
+    "ja-grid": ">=0.0.2 <1.0.0"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": ">=18.0.0",
+    "@types/react-dom": ">=18.0.0",
+    "sass": ">=1.69.0",
+    "typescript": ">=5.0.0"
+  }
+}
