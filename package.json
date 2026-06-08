@@ -1,0 +1,12 @@
+{
+  "name": "opengrid-monorepo",
+  "private": true,
+  "version": "0.0.1",
+  "description": "Framework-agnostic enterprise data grid built for modern web applications.",
+  "license": "MIT",
+  "workspaces": [
+    "packages/*",
+    "examples/*",
+    "apps/*"
+  ]
+}
